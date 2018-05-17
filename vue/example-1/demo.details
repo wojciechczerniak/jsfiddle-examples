@@ -7,6 +7,6 @@ Make examples great again!
    - Wojciech Czerniak
  resources:
    - https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.38.1/handsontable.full.css
-   - https://cdn.jsdelivr.net/combine/npm/handsontable,npm/@handsontable/vue
+   - https://cdn.jsdelivr.net/combine/gh/handsontable/handsontable/dist/handsontable.full.js,gh/handsontable/vue-handsontable-official@2.0.0-beta1/dist/ce/vue-handsontable-ce.js
  normalize_css: no
 ...

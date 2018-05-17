@@ -1,16 +1,26 @@
-new Vue({
-  el: "#vue-app",
-  data: function() {
-    return {
-      settings: {
-        data: Handsontable.helper.createSpreadsheetData(50, 50),
-        colHeaders: true,
-        width: 500,
-        height: 500
-      }
-    };
-  },
-  components: {
-    HotTable
+var Component = ng.core.Component;
+var NgModule = ng.core.NgModule;
+var FormsModule = ng.forms.FormsModule;
+var BrowserModule = ng.platformBrowser.BrowserModule;
+var platformBrowserDynamic = ng.platformBrowserDynamic.platformBrowserDynamic;
+var HotTableModule = Handsontable.angular.HotTableModule;
+
+@Component({
+  selector: 'my-app',
+  template: '<hot-table></hot-table>'
+})
+class AppComponent  {}
+
+@NgModule({
+  imports:      [ BrowserModule, FormsModule, HotTableModule ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
+})
+class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
+  if (window['ngRef']) {
+    window['ngRef'].destroy();
   }
-});
+  window['ngRef'] = ref;
+}).catch(err => { console.error(err) });

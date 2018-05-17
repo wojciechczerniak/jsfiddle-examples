@@ -1,0 +1,13 @@
+Make examples great again!
+
+---
+ name: Example 1
+ description: This is an example no 1
+ authors:
+   - Wojciech Czerniak
+ resources:
+   - https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.38.1/handsontable.full.css
+   - https://cdnjs.cloudflare.com/ajax/libs/handsontable/2.0.0/handsontable.full.min.js
+   - https://cdn.rawgit.com/handsontable/vue-handsontable-official/40abf2c4/dist/ce/vue-handsontable-ce.min.js
+ normalize_css: no
+...

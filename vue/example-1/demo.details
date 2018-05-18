@@ -1,5 +1,3 @@
-Make examples great again!
-
 ---
  name: Example 1
  description: This is an example no 1
@@ -9,4 +7,4 @@ Make examples great again!
    - https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.38.1/handsontable.full.css
    - https://cdn.jsdelivr.net/combine/gh/handsontable/handsontable/dist/handsontable.full.js,gh/handsontable/vue-handsontable-official@2.0.0-beta1/dist/ce/vue-handsontable-ce.js
  normalize_css: no
-...
+---

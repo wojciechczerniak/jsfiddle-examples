@@ -8,4 +8,4 @@ resources:
   - https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js
   - https://cdn.jsdelivr.net/combine/gh/handsontable/handsontable/dist/handsontable.full.js,gh/handsontable/vue-handsontable-official@2.0.0-beta1/dist/ce/vue-handsontable-ce.js
 normalize_css: no
----
+...

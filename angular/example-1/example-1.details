@@ -1,23 +1,21 @@
-Make examples great again!
-
 ---
- name: Example 1
- description: This is an example no 1
- authors:
-   - Wojciech Czerniak
- resources:
-   - https://cdn.jsdelivr.net/npm/handsontable-pro@2.0.0/dist/handsontable.full.min.css
-   - https://cdn.jsdelivr.net/npm/rxjs@6.1.0/bundles/rxjs.umd.js
-   - https://cdn.jsdelivr.net/npm/core-js@2.5.6/client/core.min.js
-   - https://cdn.jsdelivr.net/npm/zone.js@0.8.26/dist/zone.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/core@6.0.0/bundles/core.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/forms@6.0.0/bundles/forms.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/common@6.0.0/bundles/common.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/router@6.0.0/bundles/router.umd.min.js
-   - https://cdn.jsdelivr.net/npm/handsontable-pro@2.0.0/dist/handsontable.full.js
-   - https://cdn.jsdelivr.net/npm/@angular/compiler@6.0.0/bundles/compiler.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/platform-browser@6.0.0/bundles/platform-browser.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@handsontable/angular@1.0.0-beta5/bundles/handsontable-angular.umd.min.js
-   - https://cdn.jsdelivr.net/npm/@angular/platform-browser-dynamic@6.0.0/bundles/platform-browser-dynamic.umd.min.js
- normalize_css: no
+name: Example 1
+description: This is an example no 1
+authors:
+  - Wojciech Czerniak
+resources:
+  - https://cdn.jsdelivr.net/npm/handsontable-pro@2.0.0/dist/handsontable.full.min.css
+  - https://cdn.jsdelivr.net/npm/rxjs@6.1.0/bundles/rxjs.umd.js
+  - https://cdn.jsdelivr.net/npm/core-js@2.5.6/client/core.min.js
+  - https://cdn.jsdelivr.net/npm/zone.js@0.8.26/dist/zone.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/core@6.0.0/bundles/core.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/forms@6.0.0/bundles/forms.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/common@6.0.0/bundles/common.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/router@6.0.0/bundles/router.umd.min.js
+  - https://cdn.jsdelivr.net/npm/handsontable-pro@2.0.0/dist/handsontable.full.js
+  - https://cdn.jsdelivr.net/npm/@angular/compiler@6.0.0/bundles/compiler.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/platform-browser@6.0.0/bundles/platform-browser.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@handsontable/angular@1.0.0-beta5/bundles/handsontable-angular.umd.min.js
+  - https://cdn.jsdelivr.net/npm/@angular/platform-browser-dynamic@6.0.0/bundles/platform-browser-dynamic.umd.min.js
+normalize_css: no
 ...

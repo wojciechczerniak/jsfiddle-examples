@@ -1,0 +1,10 @@
+---
+name: Vanilla Example 1
+description: This is an example no 1
+authors:
+  - Wojciech Czerniak
+resources:
+  - https://docs.handsontable.com/bower_components/handsontable/dist/handsontable.full.min.css
+  - https://docs.handsontable.com/bower_components/handsontable/dist/handsontable.full.min.js
+normalize_css: no
+---

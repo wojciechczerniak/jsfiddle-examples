@@ -7,19 +7,18 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-        <HotTable
-          id="hot"
-          data={this.handsontableData}
-          colHeaders={true}
-          rowHeaders={true}
-          width={500}
-          height={300}
-          />
-      </div>
+    return React.createElement(
+      HotTable,
+      {
+        data: this.handsontableData,
+        colHeaders: true,
+        rowHeaders: true,
+        width: 500,
+        height: 300,
+      },
+      null,
     );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('example1'));
+ReactDOM.render(App, document.getElementById('example1'));

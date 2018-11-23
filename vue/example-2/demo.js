@@ -1,5 +1,5 @@
 new Vue({
-  el: "#vue-app",
+  el: "#example-2",
   data: function() {
     return {
       settings: {

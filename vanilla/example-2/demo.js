@@ -1,4 +1,4 @@
-let container = document.getElementById('container');
+let container = document.getElementById('example-2');
 
 let hot = new Handsontable(container, {
   data: Handsontable.helper.createSpreadsheetData(50, 15),

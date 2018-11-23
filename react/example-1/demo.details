@@ -1,0 +1,14 @@
+---
+name: Vanilla Example 1
+description: This is an example no 1
+authors:
+  - Wojciech Czerniak
+resources:
+  - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css
+  - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js
+  - https://handsontable.com/docs/6.2.0/scripts/jsfiddle-fixer.js
+  - https://cdn.jsdelivr.net/npm/react@16/umd/react.development.js
+  - https://cdn.jsdelivr.net/npm/react-dom@16/umd/react-dom.development.js
+  - https://cdn.jsdelivr.net/npm/@handsontable-pro/react/dist/react-handsontable.min.js
+normalize_css: no
+---

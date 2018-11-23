@@ -11,6 +11,6 @@ new Vue({
     };
   },
   components: {
-    HotTable
+    HotTable: Handsontable.vue.HotTable
   }
 });

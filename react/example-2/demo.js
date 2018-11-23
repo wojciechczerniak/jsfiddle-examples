@@ -1,7 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { HotTable } from '@handsontable-pro/react';
-import Handsontable from 'handsontable-pro';
+const HotTable = Handsontable.react.HotTable;
 
 class App extends React.Component {
   constructor(props) {

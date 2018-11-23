@@ -1,12 +1,9 @@
-document.addEventListener('DOMContentLoaded', function(){
-  var container = document.getElementById('container');
-  var hot;
+let container = document.getElementById('container');
 
-  hot = new Handsontable(container, {
-    data: Handsontable.helper.createSpreadsheetData(50, 15),
-    width: 500,
-    height: 300,
-    rowHeaders: true,
-    colHeaders: true,
-  });
-}, false);
+let hot = new Handsontable(container, {
+  data: Handsontable.helper.createSpreadsheetData(50, 15),
+  width: 500,
+  height: 300,
+  rowHeaders: true,
+  colHeaders: true,
+});

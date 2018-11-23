@@ -1,10 +1,12 @@
 ---
-name: Vanilla Example 1
-description: This is an example no 1
+name: Vue Example 2
+description: This is an example no 2
 authors:
   - Wojciech Czerniak
 resources:
   - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css
+  - https://cdn.jsdelivr.net/npm/vue/dist/vue.js
   - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js
+  - https://cdn.jsdelivr.net/npm/@handsontable/vue/dist/vue-handsontable.js
 normalize_css: no
----
+...

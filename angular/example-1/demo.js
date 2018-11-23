@@ -1,9 +1,9 @@
-var Component = ng.core.Component;
-var NgModule = ng.core.NgModule;
-var FormsModule = ng.forms.FormsModule;
-var BrowserModule = ng.platformBrowser.BrowserModule;
-var platformBrowserDynamic = ng.platformBrowserDynamic.platformBrowserDynamic;
-var HotTableModule = Handsontable.angular.HotTableModule;
+let Component = ng.core.Component;
+let NgModule = ng.core.NgModule;
+let FormsModule = ng.forms.FormsModule;
+let BrowserModule = ng.platformBrowser.BrowserModule;
+let platformBrowserDynamic = ng.platformBrowserDynamic.platformBrowserDynamic;
+let HotTableModule = Handsontable.angular.HotTableModule;
 
 @Component({
   selector: 'my-app',

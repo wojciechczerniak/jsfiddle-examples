@@ -4,8 +4,9 @@ description: This is an example no 1
 authors:
   - Wojciech Czerniak
 resources:
-  - https://cdnjs.cloudflare.com/ajax/libs/handsontable/0.38.1/handsontable.full.css
-  - https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js
-  - https://cdn.jsdelivr.net/combine/gh/handsontable/handsontable/dist/handsontable.full.js,gh/handsontable/vue-handsontable-official@2.0.0-beta1/dist/ce/vue-handsontable-ce.js
+  - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css
+  - https://cdn.jsdelivr.net/npm/vue/dist/vue.js
+  - https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js
+  - https://cdn.jsdelivr.net/npm/@handsontable/vue/dist/vue-handsontable.js
 normalize_css: no
 ...
